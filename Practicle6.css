@@ -1,0 +1,30 @@
+.navbar{
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+}
+a{
+    text-decoration: none;
+    color: white;
+    
+}
+li{
+    list-style: none;
+     display: inline; 
+    /* background-color: wheat; */
+}
+.outer{
+    height: 500px;
+    width: 500px;
+    background-color: palevioletred;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inner{
+    height: 200px;
+    width: 200px;
+    background-color: lightcoral;
+    align-self: flex-start;
+}
